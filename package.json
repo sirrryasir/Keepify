@@ -1,0 +1,24 @@
+{
+  "name": "keepify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend && npm run dev --prefix backend",
+    "start": "node backend/server.js",
+    "build": "npm run build --prefix frontend"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirrryasir/Keepify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sirrryasir/Keepify/issues"
+  },
+  "homepage": "https://github.com/sirrryasir/Keepify#readme"
+}
